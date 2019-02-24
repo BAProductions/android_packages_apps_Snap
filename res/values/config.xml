@@ -29,6 +29,9 @@
          of the fullscreen pano preview. -->
     <bool name="enable_warped_pano_preview">false</bool>
 
+    <!-- This value may be changed to true to enable Snap to run in landscape mode. -->
+    <string name="screen_orientation">portrait</string>
+
     <!-- Enable support for camera api v2 -->
     <bool name="support_camera_api_v2">false</bool>
 

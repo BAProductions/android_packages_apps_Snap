@@ -696,5 +696,11 @@
         <item>180</item>
         <item>270</item>
     </string-array>
-
+    <!-- This value may be changed to true to enable Snap to run in landscape mode. -->
+    <array name="pref_supports_screens_sizes" translatable="false">
+        <item>android:anyDensity="true"</item>
+        <item>android:largeScreens="true"</item>
+        <item>android:normalScreens="true"</item>
+        <item>android:smallScreens="false"</item>
+    </array>
 </resources>
